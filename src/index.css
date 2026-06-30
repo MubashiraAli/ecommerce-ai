@@ -1,0 +1,57 @@
+/* ===== Global Reset ===== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== Global Theme ===== */
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0f172a;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===== Body ===== */
+
+body {
+  background-color: #0f172a;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+/* ===== Links ===== */
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ===== Images ===== */
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* ===== Buttons ===== */
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+}
+
+/* ===== Inputs ===== */
+
+input,
+textarea,
+select {
+  font-family: inherit;
+}
